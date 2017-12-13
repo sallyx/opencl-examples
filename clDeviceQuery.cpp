@@ -253,8 +253,8 @@ sProfileString += cBuffer;
   sProfileString += "\n";
   printf("%s", sProfileString.c_str());
 }
-free(clPlatformIDs);
       }
+	free(clPlatformIDs);
     }
   }
 
